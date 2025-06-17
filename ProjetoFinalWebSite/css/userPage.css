@@ -1,0 +1,168 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Poppins:wght@300;500;700&display=swap');
+
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body {
+font-family: 'Poppins', sans-serif;
+background-color: #0e0e0e;
+color: #eee;
+min-height: 100vh;
+padding: 1rem;
+}
+
+@media (min-width: 768px) {
+  body {
+    padding: 2rem 4rem;
+  }
+}
+
+
+header {
+text-align: center;
+margin-bottom: 30px;
+}
+
+header h1 {
+font-family: 'Orbitron', sans-serif;
+font-size: 1.8em;
+color: #DA70D6;
+text-shadow: 0 0 10px #DA70D6aa;
+}
+
+@media (min-width: 768px) {
+  header h1 {
+    font-size: 2.5em;
+  }
+}
+
+
+header p {
+font-size: 1.1em;
+color: #ccc;
+margin-top: 8px;
+}
+
+.content {
+max-width: 800px;
+margin: auto;
+background-color: rgba(255, 255, 255, 0.03);
+padding: 30px;
+border-radius: 16px;
+box-shadow: 0 0 20px rgba(218, 112, 214, 0.2);
+backdrop-filter: blur(6px);
+}
+
+.content h3 {
+margin: 20px 0 10px;
+color: #ffcc00;
+font-size: 1.4em;
+}
+
+.content p {
+margin-bottom: 10px;
+color: #eee;
+}
+
+form {
+margin: 20px 0;
+display: flex;
+flex-direction: column;
+}
+
+label {
+margin-top: 12px;
+font-weight: 500;
+color: #DA70D6;
+}
+
+input[type="text"],
+input[type="password"] {
+padding: 10px;
+margin-top: 5px;
+border: 1px solid #DA70D6;
+border-radius: 8px;
+background-color: #1c1c1c;
+color: #fff;
+transition: border-color 0.3s ease;
+}
+
+input:focus {
+outline: none;
+border-color: #ffcc00;
+box-shadow: 0 0 10px #ffcc00aa;
+}
+
+button {
+margin-top: 20px;
+padding: 12px;
+background-color: rgba(218, 112, 214, 0.1);
+border: 2px solid #DA70D6;
+color: #fff;
+font-family: 'Orbitron', sans-serif;
+font-size: 1.1em;
+border-radius: 12px;
+cursor: pointer;
+transition: 0.3s ease-in-out;
+}
+
+button:hover {
+background-color: #DA70D6;
+color: #111;
+box-shadow: 0 0 20px #DA70D6cc, inset 0 0 6px #fff;
+transform: scale(1.03);
+}
+
+table {
+width: 100%;
+margin-top: 20px;
+border-collapse: collapse;
+background-color: #1c1c1c;
+border-radius: 10px;
+overflow: hidden;
+}
+
+thead {
+background-color: #DA70D6;
+}
+
+thead th {
+padding: 12px;
+color: #111;
+font-weight: bold;
+}
+
+tbody tr {
+border-bottom: 1px solid #444;
+}
+
+tbody td {
+padding: 10px;
+text-align: center;
+color: #ccc;
+}
+
+tbody tr:hover {
+background-color: #2a2a2a;
+}
+
+.logout-link {
+display: inline-block;
+margin-top: 30px;
+text-decoration: none;
+padding: 10px 20px;
+background-color: #ffcc00;
+color: #111;
+font-weight: bold;
+border-radius: 10px;
+transition: background 0.3s ease;
+}
+
+.logout-link:hover {
+background-color: #e6b800;
+box-shadow: 0 0 10px #ffcc00aa;
+}

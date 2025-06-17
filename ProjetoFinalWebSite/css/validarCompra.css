@@ -1,0 +1,170 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #111;
+            color: #eee;
+            font-family: 'Poppins', sans-serif;
+            padding: 1.5rem;
+            line-height: 1.6;
+        }
+
+        @media (min-width: 768px) {
+            body {
+                padding: 3rem 5rem;
+            }
+        }
+
+
+        h2 {
+            font-size: 1.8em;
+            color: #DA70D6;
+            font-family: 'Orbitron', sans-serif;
+            text-align: center;
+            margin-bottom: 20px;
+            text-shadow: 0 0 8px #DA70D6aa;
+        }
+
+        @media (min-width: 768px) {
+            h2 {
+                font-size: 2.5em;
+    }
+}
+
+
+        h3 {
+            font-size: 1.5em;
+            color: #ffcc00;
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        ul {
+            margin-top: 20px;
+            padding-left: 0;
+            text-align: center;
+        }
+
+        ul li {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid #DA70D6;
+            padding: 10px 20px;
+            margin: 10px;
+            border-radius: 10px;
+            font-size: 1.1em;
+            color: #ccc;
+            min-width: 200px;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            color: #ccc;
+            text-align: center;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 30px auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgba(218, 112, 214, 0.2);
+            backdrop-filter: blur(8px);
+        }
+
+        label {
+            display: block;
+            margin: 15px 0 5px;
+            font-weight: 500;
+            color: #DA70D6;
+        }
+
+        input[type="text"],
+        input[type="password"],
+        input[type="date"],
+        textarea {
+            width: 100%;
+            padding: 10px 14px;
+            font-size: 1em;
+            border-radius: 8px;
+            border: 1px solid #DA70D6;
+            background-color: #222;
+            color: #fff;
+            transition: all 0.3s ease;
+        }
+
+        input:focus,
+        textarea:focus {
+            outline: none;
+            border-color: #ffcc00;
+            box-shadow: 0 0 8px #ffcc00aa;
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 80px;
+        }
+
+        button {
+            background: rgba(218, 112, 214, 0.1);
+            border: 2px solid #DA70D6;
+            color: #fff;
+            padding: 12px 25px;
+            font-size: 1.1em;
+            border-radius: 12px;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 25px;
+            font-family: 'Orbitron', sans-serif;
+            transition: all 0.3s ease-in-out;
+            box-shadow: 0 0 10px #DA70D688;
+        }
+
+        button:hover {
+            background: #DA70D6;
+            color: #000;
+            box-shadow: 0 0 20px #DA70D6aa, inset 0 0 5px #fff;
+            transform: scale(1.02);
+        }
+
+        .alerta {
+            background-color: #ff4d4d;
+            color: #fff;
+            padding: 12px 20px;
+            border-radius: 8px;
+            margin: 20px auto;
+            text-align: center;
+            max-width: 600px;
+            font-weight: bold;
+            box-shadow: 0 0 10px #ff4d4daa;
+        }
+
+        .alerta.sucesso {
+            background-color: #28a745;
+            box-shadow: 0 0 10px #28a745aa;
+        }
+
+        @media screen and (max-width: 768px) {
+            h2 {
+                font-size: 2em;
+            }
+
+            form {
+                padding: 15px;
+            }
+
+            input, textarea {
+                font-size: 0.95em;
+            }
+
+            button {
+                font-size: 1em;
+            }
+        }
+

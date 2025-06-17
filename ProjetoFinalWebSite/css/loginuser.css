@@ -1,0 +1,117 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Poppins:wght@300;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #111;
+    color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.03);
+    padding: 1.5rem;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(218, 112, 214, 0.2);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    backdrop-filter: blur(8px);
+}
+@media (min-width: 768px) {
+  .container {
+    padding: 3rem 4rem;
+    max-width: 500px;
+    margin: auto;
+  }
+}
+
+h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2em;
+    color: #DA70D6;
+    margin-bottom: 20px;
+    text-shadow: 0 0 8px #DA70D6aa;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    text-align: left;
+    margin: 12px 0 5px;
+    color: #ffcc00;
+    font-weight: 500;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 12px;
+    border: 1px solid #DA70D6;
+    border-radius: 8px;
+    background-color: #222;
+    color: #fff;
+    font-size: 1em;
+    transition: all 0.3s ease;
+}
+
+input:focus {
+    border-color: #ffcc00;
+    outline: none;
+    box-shadow: 0 0 10px #ffcc00aa;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px;
+    background: rgba(218, 112, 214, 0.1);
+    border: 2px solid #DA70D6;
+    border-radius: 12px;
+    color: #fff;
+    font-size: 1.1em;
+    font-family: 'Orbitron', sans-serif;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 0 10px #DA70D688;
+}
+
+button:hover {
+    background-color: #DA70D6;
+    color: #000;
+    box-shadow: 0 0 20px #DA70D6aa, inset 0 0 5px #fff;
+    transform: scale(1.02);
+}
+
+a {
+    display: inline-block;
+    margin-top: 25px;
+    color: #ccc;
+    font-size: 0.95em;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: #ffcc00;
+}
+
+.error-message {
+    background-color: #ff4d4d;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px #ff4d4daa;
+}
