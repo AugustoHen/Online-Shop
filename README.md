@@ -56,7 +56,6 @@ git clone https://github.com/AugustoHen/Online-Shop.git
 ```
 3. Coloque o projeto dentro da pasta `htdocs` do XAMPP
 4. Abra o `phpMyAdmin` e:
-   - Crie um banco chamado `lojabanda`
    - Importe o arquivo `sql/lojabanda.sql`
 5. No navegador, acesse:
 ```
@@ -71,11 +70,6 @@ Na pasta `/docs` estão o relatório do projeto, os wireframes e o style guide q
 
 ---
 
-## 🖼️ Prints do site
-
-*(Aqui você pode colocar algumas imagens do site funcionando.)*
-
----
 
 ## ✍️ Sobre
 
@@ -87,4 +81,4 @@ Se quiser, pode me dar sugestões ou feedbacks!
 ## 🚀 Feito por
 
 **Augusto Hen**  
-🔗 [Meu LinkedIn](https://www.linkedin.com/) | 🔗 [Meu GitHub](https://github.com/AugustoHen)
+🔗 [Meu LinkedIn]([https://www.linkedin.com/](https://www.linkedin.com/in/augusto-henriques-793375206/)) | 🔗 [Meu GitHub](https://github.com/AugustoHen)
