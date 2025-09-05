@@ -3,6 +3,7 @@
 
 Esse é um projeto desenvolvido para a disciplina de **Desenvolvimento Web Avançado**, onde o desafio foi criar uma loja online simples, mas funcional. A ideia foi aplicar tudo o que aprendi sobre desenvolvimento web, banco de dados, responsividade e boas práticas.
 
+🔗([Site em funcionamento](https://shop-online.infinityfreeapp.com/))
 ---
 
 ## 🚀 Funcionalidades do projeto
